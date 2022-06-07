@@ -39,10 +39,10 @@ function Details() {
                 <img src="/images/play-icon-black.png" alt="" />
                 <span>PLAY</span>
               </Player>
-              {/* <Trailer onClick={() => setPlaying(true)}>
+              <Trailer onClick={() => setPlaying(true)}>
                 <img src="/images/play-icon-white.png" alt="" />
                 <span>TRAILER</span>
-              </Trailer> */}
+              </Trailer>
             </div>
 
             <Title>{movie.title}</Title>
