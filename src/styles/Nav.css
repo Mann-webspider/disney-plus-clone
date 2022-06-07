@@ -1,0 +1,113 @@
+.nav{
+    color: white;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo_div{
+    width: 7rem;
+    margin-left: 80px;
+    margin-top: 10px;
+    height: 5rem;
+    background-image: url('../../public/images/logo.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.login_btn{
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 40px;
+    color: #e4e4e4;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: 0.2s ease-out;   
+}
+
+
+.login_btn:hover{
+    color: black;
+    background-color: #e4e4e4;
+}
+
+.login_btn:active{
+    color: black;
+    transform: scale(0.9);
+    /* background-color: #444343; */
+}
+.menus{
+    width:auto;
+    position: absolute;
+    left: 200px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+a{
+    display: flex;
+    text-decoration: none;
+    margin-right: 30px;
+    color: #e4e4e4;
+    
+}
+
+
+
+li{
+    list-style: none;
+    letter-spacing: 4px;
+}
+img{
+    width: 20px;
+    min-width: 15px;
+}
+
+
+.userPhoto{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;   
+}
+
+@media (max-width:786px) {
+    .menus{
+        display: none;
+    }
+}
+
+@media (max-width:425px) {
+    .logo_div{
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:1070px) {
+    .menus{
+        width: 500px;
+        margin-left: auto;
+    }
+    img{
+        width: 10px;
+    }
+    li{
+        letter-spacing: 2px;
+        font-size: 0.7rem;
+    }
+    a{
+        margin-right: auto;
+    }
+}

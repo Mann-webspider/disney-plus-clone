@@ -1,0 +1,158 @@
+.bg_img{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../public/images/login-background.jpg');
+    background-size: cover;
+    
+}   
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #0063E5; */
+
+}
+
+.contant{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    width: 50rem;
+    height: 30rem;
+    flex-direction: column;
+    /* padding-top: 4rem; */
+    /* background-color: #0063E5; */
+}
+.cta_logo1{
+    background-image: url('../../public/images/cta-logo-one.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40rem;
+    height: 10rem;
+    /* background-color: red; */
+
+}
+
+.btn{
+background-color: #0063E5;
+color: white;
+font-size: 1.1rem;
+width: 40rem;
+height: 3rem;
+border-radius: 5px;
+font-weight: 600;
+border: none;
+  
+}
+
+
+.description{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: white;
+    width: 40rem;
+}
+
+
+.cta_logo2{
+    background-image: url('../../public/images/cta-logo-two.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40rem;
+    height: 10rem;
+}
+
+.btn:hover{
+    background-color: #1573ee;
+}
+.btn:active{
+    background-color:#095fcf;
+    transform: scale(0.99) ;
+    
+}
+
+@media (max-width:786px) {
+    .contant{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30rem;
+        height: 10rem;  
+    }
+    .cta_logo1{
+        width: 30rem;
+        right: auto;
+        height: 25rem;
+        position: absolute;
+    }
+    .btn{
+        width: 30rem;
+    }
+
+    .description{
+        width: 30rem;
+    }
+    .cta_logo2{
+        width: 30rem;
+    }
+}
+
+@media (max-width:481px) {
+    .contant{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20rem;
+        height: 10rem;  
+    }
+    .cta_logo1{
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn{
+        width: 20rem;
+    }
+
+    .description{
+        width: 20rem;
+    }
+    .cta_logo2{
+        width: 20rem;
+    }
+}
+
+@media (max-width:325px) {
+    .contant{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 1rem;  
+    }
+    .cta_logo1{
+        width: 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn{
+        width: 15rem;
+    }
+
+    .description{
+        margin-top: 1rem;
+        width: 15rem;
+    }
+    .cta_logo2{
+        position: absolute;
+        right: auto;
+        top: auto;
+        width: 15rem;
+        height: 15rem;
+    }
+}

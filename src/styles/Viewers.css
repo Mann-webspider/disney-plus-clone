@@ -1,0 +1,15 @@
+.img {
+    width: 100%;
+    height: 100%;
+    inset: 0px;
+    position: absolute;
+    opacity: 1; 
+    object-fit: contain;
+    display: block;
+    z-index: 2;
+  }
+
+
+
+
+

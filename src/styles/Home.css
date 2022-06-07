@@ -1,0 +1,16 @@
+.background{
+    background-image: url('../../public/images/home-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: absolute; */
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow: auto; 
+    color:white;
+    
+}
+
+.background::-webkit-scrollbar{
+    display: none;
+}
