@@ -72,6 +72,12 @@ const Fadder = styled.div`
 
   @media (max-width: 768px) {
     display: none;
+    background-image: linear-gradient(
+      270deg,
+      transparent,
+      rgba(0, 0, 0, 0),
+      transparent
+    );
   }
 `;
 
