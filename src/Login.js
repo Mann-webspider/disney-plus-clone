@@ -19,7 +19,7 @@ function Login() {
     signInWithPopup(auth, provider)
       .then((result) => {
         setUser(result.user);
-        console.log(result.user);
+
         // ...
         navigation("/");
       })

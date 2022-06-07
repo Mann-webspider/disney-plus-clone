@@ -311,19 +311,35 @@ const movies = [
     video:
       "https://imdb-video.media-imdb.com/vi3689463833/1434659607842-pgv4ql-1619426374216.mp4?Expires=1654666662&Signature=PU9f-5-F8RpnKzpJo~MzjVpPL4nG437xrf1NWOnR~NYK1NG5Dx0WZENo3ZAK32zJWCZaBbhzr7RIahT4JbKYoy~2a-X6zc9CKVO16MmnY38caSt9wwOE2JP1CnWJLT8ugD~BvzssGjNmcMcHj7ZVxmQxT1qO4Om6~HLeRaHrZtQqvKIlgOvsUDiK9bES7EDfR4Tgxucpl06B8JEkgiMh56GYE-ATDjOFSHcrxg4yumgWey8IypHQNX-U8bbMOXkJHfHue~XeRMNbkLSzzwtyVBMnwqdSu1n0INqkJX-5FAzuKd-jQBoR0T7Wey2Ag6csG9QkuSzpDnap7jdsUVmfsg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
   },
+  // {
+  //   backgroundImg:
+  //     "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/28F85D4A1F7CA135B7B20B3EDB42EDA73196C2A71C52C5400A6C2285F8E071BE/scale?width=1440&aspectRatio=1.78&format=jpeg",
+  //   cardImg:
+  //     "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4B32D8CB7C0C358E9FF348FB0338AD13F9A5836808E9EF5FADD9DBDE52FC3CAD/scale?width=400&aspectRatio=1.78&format=jpeg",
+  //   description:
+  //     "J-Pop band Perfume is featured in this original music and documentary series 'Disney’s My Music Story.' The show features Perfume's life stories, passion for music, Disney memories, and more.",
+  //   subTitle: "2019 • 53m • Documentary, Biographical, Music",
+  //   title: "My music story",
+  //   titleImg:
+  //     "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/97BB36F8B9FC053F561894DD7B1C42C4FD20E63560F481CBCB3B9D3600CFCA3B/scale?width=1440&aspectRatio=1.78",
+  //   type: "new",
+  //   id: "VxEW8bAgaKzmH2yC29br",
+  // },
   {
     backgroundImg:
-      "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/28F85D4A1F7CA135B7B20B3EDB42EDA73196C2A71C52C5400A6C2285F8E071BE/scale?width=1440&aspectRatio=1.78&format=jpeg",
+      "https://static.spotboye.com/uploads/n2_2021-5-7-13-23-18_thumbnail.jpg",
     cardImg:
-      "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4B32D8CB7C0C358E9FF348FB0338AD13F9A5836808E9EF5FADD9DBDE52FC3CAD/scale?width=400&aspectRatio=1.78&format=jpeg",
+      "https://static.spotboye.com/uploads/n2_2021-5-7-13-23-18_thumbnail.jpg",
     description:
-      "J-Pop band Perfume is featured in this original music and documentary series 'Disney’s My Music Story.' The show features Perfume's life stories, passion for music, Disney memories, and more.",
-    subTitle: "2019 • 53m • Documentary, Biographical, Music",
-    title: "My music story",
+      "Story of a gambler as he journeys from his village to a city.",
+    subTitle: "2021 • 53m • Drama",
+    title: "Vithhal teedi Ep1",
     titleImg:
-      "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/97BB36F8B9FC053F561894DD7B1C42C4FD20E63560F481CBCB3B9D3600CFCA3B/scale?width=1440&aspectRatio=1.78",
+      "https://play-lh.googleusercontent.com/jlaEXi_-RWUOddpy4VJCEDIEveDUAu_rm7TXQ34e3IbWynY5CZs_3ca2fHiexGC9HNua=w240-h480",
     type: "new",
-    id: "VxEW8bAgaKzmH2yC29br",
+    id: "VxEW8bAgaKzmH2yC29bp",
+    video:
+      "https://imdb-video.media-imdb.com/vi2009251865/1434659607842-pgv4ql-1621009680939.mp4?Expires=1654720701&Signature=tKE6EFN6VgcKTF3PJkp6c-0ANyeAXpprP0Ia0wLU4VNufeEtq40NJ4SEwFlgOZMLWm8xreeedXKQ3pjFQBH30RVkII7l8QJkqKAlmigQxb8cU-~LRyl2rSsYuhspPhzv7rRpfKAqtN-fnT0GQjJEwNkikYxkvwdkPgHvwnQzBZg0haIxstGxuPaKdpANwZ2fXrakbbdmkKTc7F-RjBAiJmQ5kx3Ujm5fKN1T2UTnfLvmf9GG9McBQOqzJwZCNNhD3wcCUusudkieotoRhDMQ95NyHn-BAs6ZfMJ64y0BN79-Em4OupczF8Y-RP47BUHZCRC91L1QOSdtLfBPwJToeg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
   },
 ];
 
