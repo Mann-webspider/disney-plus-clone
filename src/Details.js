@@ -70,7 +70,7 @@ const Fadder = styled.div`
     #000
   );
 
-  @media (max-width: 425px) {
+  @media (max-width: 768px) {
     display: none;
   }
 `;
