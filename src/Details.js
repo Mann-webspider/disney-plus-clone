@@ -69,6 +69,10 @@ const Fadder = styled.div`
     rgba(0, 0, 0, 0.6),
     #000
   );
+
+  @media (max-width: 425px) {
+    display: none;
+  }
 `;
 
 const Container = styled.div`
