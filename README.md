@@ -1,5 +1,5 @@
 # Link for hosted website 
-[go to website](https://disney-mann-clone.herokuapp.com/login).
+[go to website](https://disney-plus-clone-seven-omega.vercel.app/).
 
 # Getting Started with Create React App
 
