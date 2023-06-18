@@ -19,7 +19,7 @@ function Login() {
     signInWithPopup(auth, provider)
       .then((result) => {
         setUser(result.user);
-
+        window.localStorage.setItem("accessKey",result.providerId);
         // ...
         navigation("/");
       })

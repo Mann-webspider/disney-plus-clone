@@ -4,11 +4,13 @@ import styled from "styled-components";
 import { useParams } from "react-router-dom";
 import ReactPlayer from "react-player";
 import movies from "./data/data";
+import { listAllValues } from "./firebasE";
 
 function Details() {
   const { id } = useParams();
   const [playing, setPlaying] = useState(false);
   const [movieplay, setMoviePlay] = useState(true);
+  console.log(listAllValues());
 
   return (
     <Container>
@@ -20,6 +22,7 @@ function Details() {
               <>
                 <ReactPlayer
                   url={!movieplay ? movie.movie : movie.video}
+                  key={movie.title}
                   playing={true}
                   playsinline={true}
                   autoPlay={true}

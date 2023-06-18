@@ -339,7 +339,7 @@ const movies = [
     type: "new",
     id: "VxEW8bAgaKzmH2yC29bp",
     video:
-      "https://imdb-video.media-imdb.com/vi2009251865/1434659607842-pgv4ql-1621009680939.mp4?Expires=1654720701&Signature=tKE6EFN6VgcKTF3PJkp6c-0ANyeAXpprP0Ia0wLU4VNufeEtq40NJ4SEwFlgOZMLWm8xreeedXKQ3pjFQBH30RVkII7l8QJkqKAlmigQxb8cU-~LRyl2rSsYuhspPhzv7rRpfKAqtN-fnT0GQjJEwNkikYxkvwdkPgHvwnQzBZg0haIxstGxuPaKdpANwZ2fXrakbbdmkKTc7F-RjBAiJmQ5kx3Ujm5fKN1T2UTnfLvmf9GG9McBQOqzJwZCNNhD3wcCUusudkieotoRhDMQ95NyHn-BAs6ZfMJ64y0BN79-Em4OupczF8Y-RP47BUHZCRC91L1QOSdtLfBPwJToeg__&Key-Pair-Id=APKAIFLZBVQZ24NQH3KA",
+      "https://firebasestorage.googleapis.com/v0/b/disney-plus-clone-10594.appspot.com/o/Moana%202016%201080p%20BluRay%20x264%20DTS-JYK.mkv?alt=media&token=72695c29-af1f-4c93-ad7d-59a835cb01a7",
   },
 ];
 

@@ -13,6 +13,7 @@ function Rows({ title }) {
             <Comp>
               <Link to={`/details/${movie.id}`}>
                 <img
+                  key={title}
                   src={movie.type === title ? movie.cardImg : movie.title}
                   alt="movies"
                 />

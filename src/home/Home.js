@@ -4,8 +4,18 @@ import "../styles/Home.css";
 import Courosoul from "./Courosoul";
 import Rows from "./Rows";
 import Viewers from "./Viewers";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigation = useNavigate();
+  useEffect(()=>{
+    if(!window.localStorage.getItem("accessKey")){
+      navigation("/login")
+    }else{
+      navigation("/")
+    }
+  },[])
   return (
     <>
       <Nav />

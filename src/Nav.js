@@ -24,9 +24,7 @@ function Nav() {
     signInWithPopup(auth, provider)
       .then((result) => {
         setUser(result.user);
-
         navigation("/");
-        // ...
       })
       .catch((err) => {
         console.log(err);
